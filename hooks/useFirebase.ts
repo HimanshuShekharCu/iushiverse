@@ -1,4 +1,4 @@
-import { initializeApp, getApp } from "firebase/app";
+import { initializeApp, getApp, FirebaseApp } from "firebase/app";
 import {
   RemoteConfig,
   getRemoteConfig,
@@ -58,7 +58,7 @@ export const useFirebase = () => {
 
   useEffect(() => {
     // Initialize Firebase app (or get existing instance)
-    let app;
+    let app: FirebaseApp;
     try {
       app = initializeApp(firebaseConfig);
     } catch (error: any) {
