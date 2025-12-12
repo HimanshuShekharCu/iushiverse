@@ -4,8 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 import { data } from "../mock/mock";
-import Image from "next/dist/client/image";
-import soundCloudIcon from "../public/icons/soundcloud-svgrepo-com.svg";
+
 
 export const ListMobile: React.SFC = () => {
   return (
