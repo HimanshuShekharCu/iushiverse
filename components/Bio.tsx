@@ -1,8 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
-
-const Fade = require("react-reveal/Fade");
+import { motion } from "framer-motion";
 
 export const Bio = ({ bioData }: { bioData: any }) => {
   const defaultBio = {
@@ -43,8 +42,15 @@ export const Bio = ({ bioData }: { bioData: any }) => {
 
           {/* Content Section - Right Side */}
           <div className="order-1 md:order-2 text-center md:text-left">
-            <Fade cascade>
-              <h1
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+            >
+              <motion.h1
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.1 }}
                 className="
                   text-3xl md:text-4xl lg:text-5xl
                   font-light text-gray-800 mb-6 leading-tight
@@ -54,9 +60,12 @@ export const Bio = ({ bioData }: { bioData: any }) => {
                 "
               >
                 {bioContent.para1}
-              </h1>
+              </motion.h1>
 
-              <p
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
                 className="
                   text-lg md:text-xl text-gray-600 font-light mb-6 leading-relaxed
                   break-normal
@@ -65,9 +74,12 @@ export const Bio = ({ bioData }: { bioData: any }) => {
                 "
               >
                 {bioContent.para2}
-              </p>
+              </motion.p>
 
-              <p
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.3 }}
                 className="
                   text-base md:text-lg text-gray-600 font-light mb-8 leading-relaxed
                   break-normal
@@ -76,8 +88,8 @@ export const Bio = ({ bioData }: { bioData: any }) => {
                 "
               >
                 {bioContent.para3}
-              </p>
-            </Fade>
+              </motion.p>
+            </motion.div>
 
             {/* Stats Section */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-10">
@@ -109,7 +121,7 @@ export const Bio = ({ bioData }: { bioData: any }) => {
 
             {/* CTA Button */}
             <div className="text-center md:text-left">
-              <Link href="/contact" passHref>
+              <Link href="/contacts" passHref>
                 <button className="bg-gray-800 hover:bg-gray-900 text-white px-10 py-4 rounded-lg text-base md:text-lg font-light transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-gray-800 focus:ring-offset-2">
                   Get in touch
                 </button>
