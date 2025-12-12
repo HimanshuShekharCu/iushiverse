@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "configData": {
+      "defaultValue": {
+        "value": "[   {     \"type\": \"userDataLocal\",     \"name\": \"Mohit\",     \"petname\": \"MyCall\",     \"profession\": \"Open Format DJ/Music Producer\",     \"media\": {       \"type\": \"image\",       \"url\": \"https://res.cloudinary.com/doxkfuxtg/image/upload/v1707410521/MyCall_1_kbqit6.jpg\",       \"label\": \"Image\",       \"description\": \"MyCall Showcase\"     }   },   {     \"type\": \"media\",     \"data\": [       {         \"type\": \"video\",         \"url\": \"Eel4Kv-WEhg\",         \"label\": \"Video 1\",         \"description\": \"MyCall Showcase\"       },       {         \"type\": \"video\",         \"url\": \"eZmQQJ44X_E\",         \"label\": \"Video 2\",         \"description\": \"MyCall Showcase\"       },       {         \"type\": \"video\",         \"url\": \"XEV26vxDsmE\",         \"label\": \"Video 3\",         \"description\": \"MyCall Showcase\"       },       {         \"url\": \"https://res.cloudinary.com/doxkfuxtg/image/upload/v1707653269/tv5a54ewc1tlndxtger2.png\",         \"label\": \"Image 1\",         \"type\": \"image\",         \"description\": \"MyCall Showcase\"       },       {         \"url\": \"https://res.cloudinary.com/doxkfuxtg/image/upload/v1707410522/MyCall-Res_lkaw8c.jpg\",         \"label\": \"Image 2\",         \"type\": \"image\",         \"description\": \"MyCall Showcase\"       },       {         \"url\": \"https://res.cloudinary.com/doxkfuxtg/image/upload/v1707410521/MyCall-Goa-Sunset_w9d1yj.jpg\",         \"label\": \"Image 3\",         \"type\": \"image\",         \"description\": \"MyCall Showcase\"       },       {         \"url\": \"https://res.cloudinary.com/doxkfuxtg/image/upload/v1707410521/MyCall-Goa-Sunset4_mx2af1.jpg\",         \"label\": \"Image 4\",         \"type\": \"image\",         \"description\": \"MyCall Showcase\"       },       {         \"url\": \"https://res.cloudinary.com/doxkfuxtg/image/upload/v1707410522/MyCall-Goa-Sunset3_1_wsqqif.jpg\",         \"label\": \"Image 5\",         \"type\": \"image\",         \"description\": \"MyCall Showcase\"       },       {         \"url\": \"https://res.cloudinary.com/doxkfuxtg/image/upload/v1707411138/Web_2_yme4yu.png\",         \"label\": \"Image 6\",         \"type\": \"image\",         \"description\": \"MyCall Showcase\"       }     ]   },   {     \"type\": \"bio\",     \"media\": {       \"type\": \"image\",       \"url\": \"https://res.cloudinary.com/doxkfuxtg/image/upload/v1707411173/Web3_2_nqgmzp.png\",       \"label\": \"Image\",       \"description\": \"MyCall Showcase\"     },     \"data\": {       \"para1\": \"This is me\",       \"para2\": \"I am MyCall known as Mohit. I am from Indore and currently in bangalore. 'MyCall' is passionate about music and possesses a deep love for creating unforgettable experiences through sound.\",       \"para3\": \"He started as a music producer. Emerging in geners like Tech House, Techno, Melodic House, Bollytech, Bollywood etc.\"     }   } ]"
+      },
+      "valueType": "JSON"
+    }
+  },
+  "version": {
+    "versionNumber": "1",
+    "updateTime": "2024-02-11T19:48:39.811292Z",
+    "updateUser": {
+      "email": "officialmycall@gmail.com"
+    },
+    "updateOrigin": "CONSOLE",
+    "updateType": "INCREMENTAL_UPDATE"
+  }
+}
