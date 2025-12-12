@@ -17,8 +17,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="application-name" content="Garima Malik" />
-        <meta name="apple-mobile-web-app-title" content="Garima Malik" />
+        <meta name="application-name" content="Iushi" />
+        <meta name="apple-mobile-web-app-title" content="Iushi" />
         <meta name="msapplication-starturl" content="/" />
         <meta
           name="viewport"
@@ -48,28 +48,19 @@ function MyApp({ Component, pageProps }: AppProps) {
         {/* Essential META Tags */}
 
         <meta property="og:title" content="Artist Portfolio" />
-        <meta
-          property="og:description"
-          content="A awesome artist portfolio website."
-        />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/wecloud/image/upload/v1625824185/artist-portfolio/twitter_card-100_innx4h.jpg"
-        />
-        <meta
-          property="og:url"
-          content="https://artist-portfolio.vercel.app/"
-        />
+        <meta property="og:description" content="Iushi Portfolio" />
+        <meta property="og:image" content="/icons/iushi.jpeg" />
+        <meta property="og:url" content="https://iushiverse.vercel.app/" />
         <meta name="twitter:card" content="summary_large_image" />
 
         {/* Non-Essential, But Recommended */}
 
-        <meta property="og:site_name" content="Artist Portfolio" />
-        <meta name="twitter:image:alt" content="Artist Portfolio" />
+        <meta property="og:site_name" content="Iushi Portfolio" />
+        <meta name="twitter:image:alt" content="Iushi Portfolio" />
 
         {/* Non-Essential, But Required for Analytics */}
 
-        <meta name="twitter:site" content="@satvikvirmani" />
+        <meta name="twitter:site" content="@Iushiverse._" />
       </Head>
       <AnimateSharedLayout>
         <Component {...pageProps} />
