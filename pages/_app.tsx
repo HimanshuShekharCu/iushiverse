@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         {/* Essential META Tags */}
 
-        <meta property="og:title" content="Artist Portfolio" />
+        <meta property="og:title" content="Iushi Portfolio" />
         <meta property="og:description" content="Iushi Portfolio" />
         <meta property="og:image" content="/icons/iushi.jpeg" />
         <meta property="og:url" content="https://iushiverse.vercel.app/" />
