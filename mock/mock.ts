@@ -21,6 +21,24 @@ export const data = {
   instagramReels: [
     {
       type: "instagram",
+      url: "https://www.instagram.com/reel/DPTJK40CcS7/?igsh=cG51Z2U5Znp4aDVl",
+      label: "Instagram Reel",
+      description: "ladyssworld reel",
+    },
+    {
+      type: "instagram",
+      url: "https://www.instagram.com/reel/DPVjKA4iUq8/?igsh=MWhicDFqaGwzeThoYw==",
+      label: "Instagram Reel",
+      description: "ladyssworld reel",
+    },
+     {
+      type: "instagram",
+      url: "https://www.instagram.com/reel/DPc-jeEkzO6/?igsh=azBvdHlyaXk4dTk3",
+      label: "Instagram Reel",
+      description: "ladyssworld reel",
+    },
+    {
+      type: "instagram",
       url: "https://www.instagram.com/iushiverse._/reel/DSFTqhtCets/",
       label: "Instagram Reel",
       description: "iushiverse reel",
@@ -78,24 +96,6 @@ export const data = {
       url: "https://www.instagram.com/deeptelecom.in/reel/DP5wxX7ErhZ/",
       label: "Instagram Reel",
       description: "deeptelecom reel",
-    },
-    {
-      type: "instagram",
-      url: "https://www.instagram.com/reel/DPTJK40CcS7/?igsh=cG51Z2U5Znp4aDVl",
-      label: "Instagram Reel",
-      description: "ladyssworld reel",
-    },
-    {
-      type: "instagram",
-      url: "https://www.instagram.com/reel/DPVjKA4iUq8/?igsh=MWhicDFqaGwzeThoYw==",
-      label: "Instagram Reel",
-      description: "ladyssworld reel",
-    },
-     {
-      type: "instagram",
-      url: "https://www.instagram.com/reel/DPc-jeEkzO6/?igsh=azBvdHlyaXk4dTk3",
-      label: "Instagram Reel",
-      description: "ladyssworld reel",
     },
   ],
 };
