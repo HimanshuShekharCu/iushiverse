@@ -81,13 +81,19 @@ export const data = {
     },
     {
       type: "instagram",
-      url: "https://www.instagram.com/ladyssworld/reel/DP6SLBrD82X/",
+      url: "https://www.instagram.com/reel/DPTJK40CcS7/?igsh=cG51Z2U5Znp4aDVl",
       label: "Instagram Reel",
       description: "ladyssworld reel",
     },
     {
       type: "instagram",
-      url: "https://www.instagram.com/ladyssworld/reel/DPjL6YajvlV/",
+      url: "https://www.instagram.com/reel/DPVjKA4iUq8/?igsh=MWhicDFqaGwzeThoYw==",
+      label: "Instagram Reel",
+      description: "ladyssworld reel",
+    },
+     {
+      type: "instagram",
+      url: "https://www.instagram.com/reel/DPc-jeEkzO6/?igsh=azBvdHlyaXk4dTk3",
       label: "Instagram Reel",
       description: "ladyssworld reel",
     },
